@@ -9,7 +9,7 @@
 extension Sequence {
     
     /// This simply calls `self.map { $0 }` to forcibly convert this value to an `Array`.
-    public func asArray () -> Array<Element> {
+    public func asArray() -> Array<Element> {
         self.map { $0 }
     }
 }

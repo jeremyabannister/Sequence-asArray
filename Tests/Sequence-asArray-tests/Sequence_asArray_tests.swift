@@ -14,7 +14,7 @@ import XCTest
 final class Sequence_asArray_tests: XCTestCase {
     
     ///
-    func test_asArray () throws {
+    func test_asArray() throws {
         
         ///
         let array: [Int] = [4, 6, 71, 4, 12, 7, 9, 2]
@@ -24,7 +24,7 @@ final class Sequence_asArray_tests: XCTestCase {
         
         ///
         XCTAssertEqual(
-//            echoArray(array[2...5]) // Demonstration that .asArray() is necessary
+//            echoArray(array[2...5]), // Demonstration that .asArray() is necessary
             echoArray(array[2...5].asArray()),
             [71, 4, 12, 7]
         )
